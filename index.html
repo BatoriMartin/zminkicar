@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        select {
+            width: 10vh;
+            height: 10vh;
+            background-image: url("menu.png");
+            background-size: cover;
+            background-position: center;
+            border: none;
+            font-size: 20px;
+            color: transparent;
+            margin-left: 3vh;
+            cursor: pointer;
+            margin-top: 1.5vh;
+        }
+
+        select option {
+            color: black;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        header div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header style="position: sticky; text-align: center; justify-content: center;">
+        <img src="hirdetes.png" class="w-100">
+
+        <select onchange="location.href=this.value;">
+            <option selected> Kezdőlap </option>
+            <option value="Autok/auto.html"> Bérelhető Autók </option>
+            <option value="opten/opten.html"> OPTEN értékelés</option>
+
+        </select>
+
+    </header>
+
+    <main>
+
+
+        <section class="container-fluid fw-bold">
+            <h1 style="font-size: 8vh; font-family: fantasy;" class="text-center pt-5 pb-4">RÓLUNK</h1>
+            <div class="row fs-5" style="text-align: justify; align-items: center; margin:auto">
+                <div class="col-md-1"></div>
+                <div class="col-md-10" style="border-left: 2px solid black;">
+                    <p>Cégünk azért jött létre, hogy a vezetés élményét új szintre emelje. <br> Hiszünk abban, hogy egy
+                        autó nem csupán közlekedési eszköz, hanem stílus, szabadság és magabiztosság kifejezése. Prémium
+                        flottánk minden darabja gondosan válogatott, rendszeresen karbantartott és kifogástalan
+                        állapotban várja ügyfeleinket – legyen szó üzleti útról, különleges alkalomról vagy egy
+                        felejthetetlen hétvégi élményről.</p>
+                    <p>Szolgáltatásaink középpontjában a kényelem és a megbízhatóság áll. <br> Tudjuk, hogy ügyfeleink
+                        számára az idő és a minőség a legfontosabb, ezért minden bérlésnél gyors, rugalmas és személyre
+                        szabott ügyintézést biztosítunk. Célunk, hogy Ön mindig azt kapja, amit elvár: egy hibátlan
+                        autót, prémium kiszolgálást és gondtalan utazást.</p>
+                    <p>Legyen szó sportos teljesítményről, elegáns megjelenésről vagy luxus kényelmi funkciókról, nálunk
+                        megtalálja a tökéletes modellt. <br> Engedje, hogy autóinkkal minden út élménnyé váljon – mi
+                        pedig gondoskodunk róla, hogy az utazás már az első pillanattól különleges legyen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid text-center pt-5">
+            <h1 style="font-size: 8vh; font-family: fantasy;" class="text-center pt-5 pb-4">NÉPSZERŰ</h1>
+            <a href="Autok/auto.html"><img src="Autok/FordMustangGT_plakat.png" class="w-75"
+                    style="border-radius: 2vh;"></a>
+        </section>
+
+        <section class="container-fluid text-center pt-5">
+            <h1 style="font-size: 8vh; font-family: fantasy;" class="text-center pt-5 pb-4">RÁNK JELLEMZŐ</h1>
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <img src="premium_autoflotta.png" class="w-75" style="border-radius: 10vh;">
+                </div>
+                <div class="col-md-4 pt-5">
+                    <img src="gyors_ugyintezes.png" class="w-75" style="border-radius: 10vh;">
+                </div>
+                <div class="col-md-4 pt-5">
+                    <img src="rugalmas_berles.png" class="w-75" style="border-radius: 10vh;">
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid text-center">
+            <h1 style="font-size: 8vh; font-family: fantasy;" class="text-center pt-5 pb-4">AKCIÓ</h1>
+            <a href="Autok/auto.html"><img src="autokedvezmenytelen.png" class="w-100"></a>
+        </section>
+
+        <section class="container-fluid text-center pt-5">
+            <h1 style="font-size: 8vh; font-family: fantasy;" class="text-center pt-5 pb-4">BÉRLŐI VÉLEMÉNYEK</h1>
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <img src="ertekelesek/1.png" class="w-100">
+                </div>
+                <div class="col-md-4 pt-5">
+                    <img src="ertekelesek/2.png" class="w-100">
+                </div>
+                <div class="col-md-4 pt-5">
+                    <img src="ertekelesek/3.png" class="w-100">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <img src="footer.png" class="w-100">
+    </footer>
+
+</body>
+
+</html>
